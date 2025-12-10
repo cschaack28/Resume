@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Caleb Schaack – Personal Resume</title>
+
+  <style>
+    :root {
+      --bg: #f2f2f4;
+      --card: #ffffff;
+      --accent: #1e6fd9;
+      --accent-light: #e7f1ff;
+      --text: #1a1a1a;
+      --muted: #555;
+      --border: #d4d4d8;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 32px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .contact {
+      margin-top: 8px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .section-title {
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      display: flex;
+      align-items: center;
+      color: var(--text);
+    }
+
+    .section-title::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--accent);
+      margin-left: 12px;
+      opacity: 0.5;
+    }
+
+    .entry {
+      margin-top: 18px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .entry-meta {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .subline {
+      font-size: 0.9rem;
+      color: var(--accent);
+      font-weight: 600;
+      margin-top: 2px;
+    }
+
+    ul {
+      margin-top: 8px;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    .pill-box {
+      background: var(--accent-light);
+      border-left: 4px solid var(--accent);
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+
+      <!-- HEADER -->
+      <h1>Caleb Schaack</h1>
+      <div class="contact">
+        (469) 406-6454 · 
+        <a href="mailto:cschaack@byu.edu">cschaack@byu.edu</a> · 
+        <a href="https://www.linkedin.com/in/caleb-schaack" target="_blank">LinkedIn</a>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="section">
+        <div class="section-title">Education</div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span>Brigham Young University – Marriott School of Business</span>
+            <span class="entry-meta">Apr 2027</span>
+          </div>
+          <div class="subline">Pre-Strategic Management Student · Provo, UT</div>
+
+          <ul>
+            <li>GPA 3.93 / 4.00</li>
+            <li>ACT 32 / 36</li>
+            <li>Earned A’s in 16 Spanish challenge exam credits, demonstrating advanced proficiency</li>
+            <li>Skills: Microsoft Excel, Qualtrics, Meta Business Suite, Canva, Microsoft Forms, PostalMate</li>
+            <li>Member of Corporate Strategy Association, Finance Society</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div class="section">
+        <div class="section-title">Experience</div>
+
+        <!-- BYU Athletics -->
+        <div class="entry">
+          <div class="entry-header">
+            <span>Corporate Sponsorships, BYU Athletics</span>
+            <span class="entry-meta">Aug 2025 – Present</span>
+          </div>
+          <div class="subline">Hosting Intern · Provo, UT</div>
+
+          <ul>
+            <li>Managed VIP hospitality for 150–200 sponsor guests per event</li>
+            <li>Coordinated logistics and guest flow to maintain smooth, reliable operations</li>
+            <li>Resolved real-time issues quickly to ensure consistent partner experiences</li>
+          </ul>
+        </div>
+
+        <!-- Athletify -->
+        <div class="entry">
+          <div class="entry-header">
+            <span>Athletify</span>
+            <span class="entry-meta">Aug 2025 – Dec 2025</span>
+          </div>
+          <div class="subline">Strategy & Market Research Intern · Provo, UT</div>
+
+          <ul>
+            <li>Conducted research on 2,000+ university recreation programs to analyze scheduling system gaps</li>
+            <li>Led a 5-member OCI team, overseeing deliverables & accuracy</li>
+            <li>Built an organized database ensuring reliable system & contact data</li>
+            <li>Quadrupled research efficiency using an AI-powered automation tool</li>
+            <li>Produced a market-entry report recommending features, pricing, and target institutions</li>
+          </ul>
+        </div>
+
+        <!-- Post Mart -->
+        <div class="entry">
+          <div class="entry-header">
+            <span>Post Mart</span>
+            <span class="entry-meta">Jan 2025 – Dec 2025</span>
+          </div>
+          <div class="subline">Sales & Customer Service Representative · Provo, UT</div>
+
+          <ul>
+            <li>Managed FedEx/UPS/USPS/DHL billing with 100% payment accuracy</li>
+            <li>Trained new employees, establishing standards of speed & accuracy</li>
+            <li>Assisted 100+ customers per shift across shipping & printing workflows</li>
+            <li>Maintained 100% satisfaction through proactive issue resolution</li>
+          </ul>
+        </div>
+
+        <!-- Prosper Mulch -->
+        <div class="entry">
+          <div class="entry-header">
+            <span>Prosper Mulch</span>
+            <span class="entry-meta">May 2020 – Jul 2022</span>
+          </div>
+          <div class="subline">Owner & Operator · Prosper, TX</div>
+
+          <ul>
+            <li>Increased profit by $26,000 through financial planning & cost optimization</li>
+            <li>Boosted profit margin from 59.6% → 81.1% via pricing and workflow improvements</li>
+            <li>Expanded customer base by 300% through targeted growth operations</li>
+            <li>Implemented demand-based inventory system preventing spoilage</li>
+            <li>Led 20-person team managing daily operations & on-time delivery</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- LEADERSHIP -->
+      <div class="section">
+        <div class="section-title">Leadership & Service</div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span>The Church of Jesus Christ of Latter-day Saints</span>
+            <span class="entry-meta">Jan 2023 – Dec 2024</span>
+          </div>
+          <div class="subline">Volunteer Representative · Madrid, Spain</div>
+
+          <ul>
+            <li>Led and trained 20–25 missionaries through weekly trainings & leadership meetings</li>
+            <li>Developed communication skills through daily outreach efforts</li>
+            <li>Managed mission social media, tripling outreach and improving digital ad performance</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PERSONAL -->
+      <div class="section">
+        <div class="section-title">Personal</div>
+
+        <div class="pill-box">
+          Eagle Scout · Performed vocally at Carnegie Hall & Dallas Meyerson Symphony Hall · Enjoys weightlifting, tennis, basketball, and vocal performance
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
